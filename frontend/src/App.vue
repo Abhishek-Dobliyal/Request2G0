@@ -330,9 +330,9 @@ export default {
         this.requestObject.customParams = customParams;
       }
 
-      fetch(this.requestObject.url, {
-        method: this.requestObject.httpMethod,
-        body: this.requestObject.json,
+      fetch(this.backendEnpointURL, {
+        method: "POST",
+        body: this.requestObject,
         headers: {
           "Content-Type": "application/json",
         },
