@@ -1,5 +1,5 @@
 # Request2G0
-Test APIs with the power of GoLang
+Test APIs within the click of a button. (Postman Clone)
 
 ![](request2go_demo.gif)
 
@@ -28,4 +28,5 @@ npm run serve
 
 - [ ] Add support for listed methods
 - [ ] Add responsiveness to the web app
+- [ ] Add support for `headers` 
 - [ ] Fix issues (if any)
